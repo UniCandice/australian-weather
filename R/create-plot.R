@@ -6,7 +6,7 @@ library(tidyverse)
 df <- read_csv("data/weatherAUS.csv")
 
 # Choose a city
-city <- "Melbourne"
+city <- "Melbourne and Brisbane"
 
 # Create a scatter plot of Humidity9am and Temp9am
 scatter_plot <- df %>%
